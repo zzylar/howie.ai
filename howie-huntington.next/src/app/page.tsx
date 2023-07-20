@@ -1,14 +1,20 @@
 // root/src/app/page.tsx
-
-import HomeBanner from '../components/HomeBanner'
+import GptChatWindow from "@/components/GptChatWindow";
+import GptTextInput from "@/components/GptTextInput";
 
 export default function Home() {
   return (
     <>
-      <section className="w-full flex-center flex-col bg-white ">
-        {/* <h1 className="head_text text-center">Howie Huntington</h1> */}
-        <HomeBanner />
+      <section className="w-full h-full flex bg-white pt-14">
+        <div className="flex h-5/6 justify-center w-full">
+          <div className="flex p-14 w-full h-full flex-col">
+            <GptChatWindow />
+            <div className="mt-10 h-14">
+              <GptTextInput />
+            </div>
+          </div>
+        </div>
       </section>
     </>
-  )
+  );
 }
