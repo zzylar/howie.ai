@@ -1,8 +1,0 @@
-{
-    "builds": [
-      {
-        "src": "howie-huntington.next/howie-huntington.next/**",
-        "use": "@vercel/static"
-      }
-    ]
-  }
