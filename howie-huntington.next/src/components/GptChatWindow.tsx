@@ -7,16 +7,24 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-const GptChatWindow = () => {
-  const data =
-    "sdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; jsdflkj sl;dfjsaldjf alsdfj lasdfl; j";
+interface Message {
+  user: string;
+  content: string;
+}
+
+interface Props {
+  messages: Message[];
+}
+const GptChatWindow: React.FC<Props> = ({ messages }) => {
   return (
     <>
-      <Card className="w-full min-w-min min-h-[50vh] md:min-h-full overflow-auto">
-        <CardContent className="lg:px-20 p-10 text-left text-sm">
-          <p>{data}</p>
-          <p>{data}</p>
-        </CardContent>
+      <Card className="w-full min-w-min min-h-[40vh] overflow-auto">
+        {messages.map((message, index) => (
+          <CardContent key={index} className="lg:px-20 p-10 text-left text-sm">
+            <CardTitle>{message.user}</CardTitle>
+            <CardDescription>{message.content}</CardDescription>
+          </CardContent>
+        ))}
       </Card>
     </>
   );
