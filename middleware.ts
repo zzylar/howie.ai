@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const isChatRoute = (pathname: string) => {
+  console.log('isChatRoute', pathname);
   return pathname.startsWith("/chat");
 }
 
@@ -15,6 +16,8 @@ export function middleware(request: NextRequest) {
 
   const response = NextResponse.next();
 
+  console.log('Auth Header Check', request.headers.get('Authorization'));
+  console.log('Pathname', pathname);
   if (isChatRoute(pathname)) {
     return NextResponse.redirect(new URL('/api/auth/unauthorized', request.url));
   }

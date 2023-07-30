@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
 
-    const posts = [
+    const messages = [
         {   
             title: "Hello",
             content: "Hello, how are you?",
@@ -15,5 +15,5 @@ export async function GET() {
         },
     ];
 
-    return NextResponse.json({data: posts}, { status: 200}); 
+    return NextResponse.json({data: messages}, { status: 200}); 
 }
