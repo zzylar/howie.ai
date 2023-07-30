@@ -16,8 +16,6 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials, req) {
         const storedUsername = process.env.PUBLIC_USER;
         const storedHashedPassword = process.env.PASSWORD;
-        console.log(storedUsername, storedHashedPassword)
-        // const plainPassword = "HS_chatbot2023!";
         if (
           credentials?.username === storedUsername &&
           (await bcrypt.compare(credentials?.password, storedHashedPassword))
