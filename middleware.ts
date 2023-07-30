@@ -8,6 +8,7 @@ const isChatRoute = (pathname: string) => {
 export function middleware(request: NextRequest) {
   const origin = request.headers.get("origin");
   console.log(origin);
+  console.log('Request Object', request);
 
   const { pathname } = new URL(request.nextUrl);
 
