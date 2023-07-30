@@ -4,7 +4,7 @@ export function middleware(request: Request) {
   const origin = request.headers.get('origin');
   console.log(origin);
 
-  const allowedOrigins = ['www.yourdomain.com', 'yourdomain.com'];
+  const allowedOrigins = ['*'];
   const isOriginAllowed = origin !== null && allowedOrigins.includes(origin);
 
   const response = NextResponse.next();
