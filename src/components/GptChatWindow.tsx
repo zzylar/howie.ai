@@ -25,7 +25,7 @@ const GptChatWindow: React.FC<Props> = ({ messages }) => {
 
   return (
     <>
-      <Card className="w-full min-w-[400px] max-h-[40vh] min-h-[40vh] overflow-auto">
+      <Card className="w-full min-w-m max-h-[40vh] min-h-[40vh] overflow-auto">
         {messages.map((message, index) => (
           <CardContent key={index} className={`lg:px-20 pt-6 text-left text-sm`}>
             <CardTitle>{message.role}</CardTitle>
