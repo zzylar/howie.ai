@@ -6,7 +6,7 @@ import GptTextInput from "@/components/GptTextInput";
 import { useEffect, useState } from "react";
 
 interface Message {
-  user: string;
+  role: string;
   content: string;
 }
 
@@ -21,7 +21,7 @@ export default function Page() {
         setMessages(response.data);
       } catch (error) {
         console.error("Error:", error);
-        setMessages([{ user: "Error", content: "An error occurred" }]);
+        setMessages([{ role: "Error", content: "An error occurred" }]);
       }
     }
 
