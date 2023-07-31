@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <AuthProvider>
       <html lang="en">
-        <body className={`${inter.className} flex flex-col h-screen bg-slate-100`}>
+        <body className={`${inter.className} flex flex-col h-screen bg-gray-100`}>
           {/* <Nav /> */}
           <div className="max-w-[95%] ml-6 mr-6 mt-8 sm:ml-8 sm:mr-8 sm:mt-10 md:ml-16 md:mr-16 md:mt-16 lg:ml-[20%] lg:mr-[20%] lg:mt-[10%]">
             {children}

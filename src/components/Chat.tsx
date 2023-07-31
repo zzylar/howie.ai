@@ -36,8 +36,8 @@ export default function Chat() {
   async function sendQuery() {
     if (!query) return;
     setResult("");
-    setMessages((messages) => [...messages, { role: "user", content: query.trim() }]);
-    const assistantMessage = { role: "assistant", content: "" };
+    setMessages((messages) => [...messages, { role: "User", content: query.trim() }]);
+    const assistantMessage = { role: "Assistant", content: "" };
     setLoading(true);
     try {
       const result = await fetch("/api/read", {
@@ -57,9 +57,9 @@ export default function Chat() {
   }
   return (
     <>
-      <div className="pt-20">
+      <div className="pt-20 pl-4 pr-4">
         <>
-          <div className="pb-8 overflow-auto h-1/3">
+          <div className="pb-4 overflow-auto h-1/3">
             <GptChatWindow messages={messages} />
           </div>
           <div className="flex-shrink-0 pt-0 relative">

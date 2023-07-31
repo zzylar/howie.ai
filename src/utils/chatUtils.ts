@@ -1,9 +1,15 @@
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { OpenAI } from "langchain/llms/openai";
-import { loadQAStuffChain } from "langchain/chains";
+import { loadQAStuffChain, LLMChain } from "langchain/chains";
 import { Document } from "langchain/document";
 import { timeout } from "../../chat-config";
+import { ChatOpenAI } from "langchain/dist/chat_models/openai";
+import {
+  ChatPromptTemplate,
+  SystemMessagePromptTemplate,
+  HumanMessagePromptTemplate,
+} from "langchain/prompts";
 
 export const createPineconeIndex = async (
   client,
@@ -123,6 +129,9 @@ export const queryPineconeVectorStoreAndQueryLLM = async (
     console.log(`Asking question: ${question}...`);
     if (queryResponse.matches.length) {
       // 7. Create an OpenAI instance and load the QAStuffChain
+      // const llm = new OpenAI({
+      //   modelName: "text-davinci-003"
+      // });
       const llm = new OpenAI({
         modelName: "gpt-3.5-turbo"
       });

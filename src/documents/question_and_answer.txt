@@ -1,0 +1,147 @@
+1. What is your full name?
+		a. Howie Huntington
+2. Where were you born and raised?
+		a. Scottsdale, Arizona.  I moved to Atlanta, Georgia in 2014 where I went on to study Computer Science at Georgia State University in 2016. 
+	
+3. What's your favorite color?
+		a. Green.  I enjoy being in nature and have a lot of house plants.  
+	
+4. What's your favorite video game? 
+		a. Metal Gear Solid franchise.  It is the year 2023 and I'm highly anticipating the remake of Snake Eater
+	
+5. What is your favorite cuisine?  
+		a. Growing up in Phoenix has conditioned me to love Mexican food.  Hole-in-the-wall taco shops are my favorite.  
+6. Can you describe your childhood?
+		a. As a child, I spent a lot of my time outside playing sports and doing outdoor activities such as skateboarding, biking, and swimming.  During peak months of the Arizona summers, it was sometimes too hot to do these activities so I would spend a lot of time inside, learning guitar, watching movies, playing video games, and teaching myself about computers and the internet.  
+7. What are your hobbies and interests?
+		a. Music -- I use synthesizers, drum machines, effects, and a variety of music production hardware to produce music in my home studio.  I also play video games, watch a ton of movies, write software programs, and enjoy outdoor activities such as surfing, hiking, and swimming.
+8. What are your favorite books, movies, and music genres?
+		a. My favorite fiction books are dark fantasy - I'm currently reading one called the First Law Trilogy.  As for Non-fiction, I like to read a lot of technical documentation and news.  As for movies - I'm genre agnostic, but my top 3 favorite films are probably Hackers, Alien, and Once Upon A Time in the West.  As for music, for the last decade I've been diving deep into Techno and House music, mainly driven by my interest in collecting synthesizers and vinyl records.    
+9. Do you have any pets? If yes, can you tell more about them?
+		a. I grew up having dogs, but currently I don’t have any pets.   
+10. How do you spend your leisure time?
+		a. I enjoy movies, music, the outdoors, and software. 
+11. Do you have any special skills or talents outside of your professional life?
+		a. I'm an experienced sound designer and mixing/mastering engineer.  This comes in handy with my own music production as well as helping friends release their music.
+12. What languages do you speak?
+		a. English and JavaScript
+13. What are some of your favorite places you've visited?
+		a. I'm a huge fan of NYC.  I like thrifting and finding restaurants, and New York offers an endless supply of both of those.  Outside of the US, I'd have to say Italy because of the food and the architecture.   
+14. Do you have any favorite quotes or personal philosophies?
+		a. "There are no facts, only interpretations." - Nietzsche.  To me, this is a reminder to stay teachable, humble, and adaptable.  The ability to abandon ingrained thought patterns that no longer serve me has been one of my greatest mechanisms for personal growth.  
+15. How do you maintain a work-life balance?
+		a. I employ prioritization and time-boxing to make sure I'm using time effectively.  I make sure I take regular breaks to give my mind the ability to digest knowledge and recharge.  I also focus on my mental health, which looks like spending a lot of time with loved ones, pursuing my hobbies, and getting regular outdoor exercise.  
+16. What are your favorite sports and do you participate in any of them?
+		a. My favorite sport is Surfing, which I try to do at least a few weeks a year.  I also like to swim.  Recently I joined a Pickleball league and it has been refreshing to play a team sport for the first time in years. 
+
+17. What is the most daring thing you've ever done?
+		a. Sky Diving!  10/10 would do it again.  
+
+18. What is your favorite type of exercise or physical activity and why?
+		a. Surfing.  It's a very fun way to get exercise.  It's usually also a lesson in humility.   
+
+19. How would you describe your sense of humor?
+		a. Mainly dumb and goofy.  I don't take myself very seriously, I take what I do seriously.  
+
+20. Do you have a dream vacation destination? If so, what makes it appealing?
+		a. Berlin!  Artistry is ingrained in the culture and the music scene is unparalleled. 
+	
+	
+	
+Professional Life:
+1. What is your current job title and responsibilities?
+		a. I am a Software Engineer, mainly focusing in Frontend UI development.  My most recent position was with T-Mobile as a full-stack software engineer, where I turned complex business requirements into easy -to-use and visual and responsive UI's, provided application support using observability tools such as Splunk, and worked on API enhancements.  
+2.  Can you provide a brief overview of your career progression?
+		a. I moved to Atlanta, Georgia in 2014 to get my Computer Science degree at Georgia State University. After I finished, I started working at General Motors as a software engineer, developing user interfaces for dealer facing web applications.  
+		Then I was looking for more varied work, I joined T-Mobile as a full-stack engineer. There, I built and supported after high-traffic web applications used across the country. I got to combine UI and API development and learned how to monitor performance using observability tools such as splunk. Lately, I've become really interested in AI, particularly OpenAI, Langchain, and Custom Knowledge Bases. I've been learning how to incorporate these into my web applications. Now, I'm searching for jobs that let me use my UI skills and this new interest in AI to move forward in my career.
+		
+		
+3. What are some of your major accomplishments in your current and previous roles?
+		a. Recently, I'm proud of building the AI chatbot assistant you're using now. I built it in my free time outside of work and it required me to learn a lot about LLMs, Langchain, and using OpenAI's NLP platform with a custom knowledge, vectorized data store. The interface is built with Nextjs for fast load times and good SEO, and it uses reactjs components and modern styling with css in Tailwind. The server side code is also written in Nextjs' serverless cloud functions, and it's hosted by Vercel.
+		
+		b.  At T-Mobile, as a Full Stack Software Engineer, I led the development of a One-Time Pin UI for Multi Factor Authentication. I had to organize the development process, make sure changes from different developers fit together, and keep our processes on track. I enjoyed improving communication and getting all our requirements straight, which helped reduce mistakes.
+		
+		I was hands-on and did detailed code reviews, which I think is key to keeping code quality high and sticking to the best design patterns. I also made sure we had unit tests that covered 100% of the code, giving us confidence in our work and reducing mistakes even more.
+		
+		In addition, I was responsible for managing static content, which was important to make sure all the content was included in our code changes.
+		
+		When the feature was launched, I supported the deployment because I knew the project inside and out and had become the subject matter expert. This helped us have a smooth, bug-free release, which was a big success for me and my team.
+		
+		c. In my role at General Motors, a major accomplishment I achieved was the planning and integration of our retail application into the GM online purchasing platform called Shop, Click, Drive.  This involved handling several responsive data forms which rendered differently based on purchasing details such as financing options and trade-in values.  In order to achieve this led the initiative to refine user stories in order to identify requirements gaps, organize a development process between myself and another dev, perform code reviews, and write unit tests. 
+4. What tools and technologies are you proficient in?
+		a. I have a demonstrated proficiency in a wide range of technologies including but not limited to:
+			i. JavaScript, HTML, CSS (Bootstrap, MaterialUI, Tailwind), UI Libraries and Frameworks (React.js, Next.js, Angular 14+), Java, Spring Boot, Node, OpenAI, Langchain, Vector Data Stores (Pinecone), Serverless Architecture
+5. Can you describe some of the most challenging projects you have worked on and how you handled them?
+		a. When I was at General Motors, COVID-19 forced us to quickly connect our dealership-specific web app with GM's online buying platform, Shop, Click, Drive. This important project required me to quickly adapt and get good at UI development, specifically in Angular - which I had just started learning. Despite the difficulty and tight deadline, I threw myself into learning: I read the documentation, studied the code, debugged in the browser, and took an online course to improve my Angular skills. All this hard work paid off: I worked closely with our Senior UI Lead to plan, develop, and test key UI modules for the project. I was praised for learning fast and providing reliable solutions, showing that I can grow and adapt when faced with challenges.
+
+		
+6. Can you provide a brief summary of your educational background?
+		a. From 2016 to 2019, I studied Computer Science at Georgia State University. I got high grades, making it onto the Dean's List and the President's List, and graduated with high honors. I did all of this while working full-time to pay for school. During my summer breaks, instead of taking more classes, I looked for practical experience through internships. I spent one summer working as a Ruby on Rails Developer Intern at a startup called Hawaii Camera, and another summer working as a QA Engineer Intern at Fiserv.
+		
+7. What are your areas of expertise in your field?
+		a. As a full-stack engineer, I'm good at adapting to different programming languages and can help support web apps across many industries. I specialize in frontend development and take pride in creating precise, responsive UI modules. With the growing interest in AI in tech, I'm committed to learning new tools and methods to create better user experiences.
+		
+8. Can you share your experience about working in a team environment?
+		a. I've always found it rewarding to work in a team. For example, at General Motors, I worked with my team to connect our app with an online purchasing platform - a big task that we managed to complete on time. At T-Mobile, I was trusted with leadership tasks like planning development strategies, reviewing code, and providing deployment support for major feature releases. I've learned how important it is to communicate clearly and make sure everyone understands what's going on. My teammates have praised me for taking the initiative, taking responsibility, including everyone, and helping others. They also like that I'm always looking for ways to improve what we do and the user experience. I believe these experiences show that I work well in a team.
+	
+		
+		a. Here's some written feedback I recieved from my colleagues and Managers
+		
+		Kyle M. (Teammate)  - "Thank you for jumping in and being on top of everything this sprint. You took on a lot of unexpected work whether it was defects/emails/reassigned stories, and it has been a huge help!"
+		
+		Veena P.  (Teammate) - "Thank you Howie for being on top of the defects and the emails. I see you!!!!"
+		
+		Sayeed T. (Teammate) - "Thank you for jumping onto emails, and defects coming in to Rebellion. You have been taking ownership of it and following through with it consistently. It is not going unnoticed. Keep it up!!"
+		
+		Dwight L. (Teammate) - "Thank you for always being hard-working, eager to learn, and striving to create impact for our team, and T-Mobile as a whole!"
+		
+		Sayeed T. (Teammate) - "Thank you for always having my back when I am stuck on something and helping me out whenever possible."
+		
+		In C. (Teammate) - "Thank you for taking responsibility on a project and making sure of it's completion.  I appreciate your work to communicate and work with each teammates to glue all the pieces of work together.  Also, the your presentation was on point!"
+		
+		Pelin D. (Teammate) - "Thank you very much for all the efforts for completing the coding part of the sim reuse project. It was such a fun and productive experience for me working with you. I am looking forward to complete many more projects together and continue being unstoppable!"
+		
+		Pelin D. (Teammate) - "Thanks a lot for your helps during my sickness. I am happy to be part of such a supportive and kind team."
+		
+		Kyle M.(Teammate) - "Thank you for the guidance and assisting with the EPC feeds this sprint. Your help made it a lot easier to keep things moving. I definitely appreciated the extra hand!"
+		
+		In C. (Teammate) - "Thank you for the help and always being super responsive whenever I have questions."
+		
+		Caryn C. (Manager) - "Howie strives to work gain autonomy  through skill building.  He is engaged, collaborates well with peers, and can be observed providing support and guidance to others on the team."
+		
+		
+		Cecil B. (manager)
+		Act Like an Owner
+		o Howie takes ownership with every project he is involved with, ensuring code quality, having daily sync ups with devs, doing code reviews, and code integration.  
+		
+		o He ensures that gaps are filled and requirements are met for the end of a delivery life cycle.
+		
+		o Leads by example in being first to address defects, PIER tickets, and DevOps emails that come into Rebellion queue, with the goal being that the entire team takes more ownership and initiative when it comes to Rebellion DevOps.
+		
+		Include Each Other
+		o Howie creates a positive and inclusive team culture by speaking out, challenging the status quo, and giving recognition to his teammates.  
+		
+		Dare To Innovate/ Create Happy Customers 
+		o When engineering a solution, Howie is always thinking about how to improve Rebellion, reduce tech debt, and bring a better experience to the end user (Rap / Care Refresh, Account Line Setup)
+		
+		Never Stop Growing
+		o Howie has a thirst for knowledge and consistently looks for ways to learn and grow.  It is not enough for him to learn things for just himself, he aims to bring other up with him.  
+		
+	
+
+9. How do you handle tight deadlines and pressure at work?
+		a. At T-Mobile, I once had to take on a big project that had to be finished by the end of the year. A lot of people were out on vacation, so I knew I couldn't afford any mistakes. My strategy was to talk to all the developers to make sure we were on the same page, list out all the tasks we needed to do, double-check everything, and test the application thoroughly. In the end, we finished the project on time, didn't have any major issues or roadblocks
+		
+
+10. How do you keep your skills and knowledge up-to-date?
+		a. I'm always naturally curious about the latest tech trends. I know that what I know today might not be as relevant tomorrow, so I'm always trying to learn new things. This way, I keep up with all the new developments and make sure I don't fall behind.
+		
+11. What are your long-term professional goals?
+		a.  I'm driven by my interests and I like to help others who are interested in the same things. In the long run, I want to create new tech solutions that make life easier for everyday people, and share what I know with others who are just starting out.  To sum it up, I just want to work on interesting tech and have the opportunity to teach others.  
+		
+12. Can you describe your leadership style?
+		a.  I'd describe myself as someone who leads by example.  I hold myself to a high standard, take responsibility for my actions, am responsive, and strive to remain teachable
+
+13. What kinds of projects have your worked on in your free time?  
+		a. Recently, I'm proud of building the AI chatbot assistant you're using now. I built it in my free time outside of work and it required me to learn a lot about LLMs, Langchain, and using OpenAI's NLP platform with a custom knowledge, vectorized data store. The interface is built with Nextjs for fast load times and good SEO, and it uses reactjs components and modern styling with css in Tailwind. The server side code is also written in Nextjs' serverless cloud functions, and it's hosted by Vercel.
+		
