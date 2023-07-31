@@ -1,0 +1,47 @@
+HOWIE HUNTINGTON
+linkedin.com/in/howiehuntington ••  Atlanta, GA • 5095394485 • rhuntington2716@gmail.com  
+Professional Summary
+Versatile Frontend Developer with 4+ years' experience in modern technologies.  Proficient in delivering innovative, responsive, and cross-browser compatible web applications. Enthusiastically committed to exploring and mastering emerging technologies.
+Work History
+T-Mobile 05/2021 - 06/2023
+Software Engineer 
+* Implemented fully tested, loosely coupled web components using TypeScript, HTML, and CSS with Angular, enhancing performance of large-scale applications and improving user experience.
+* Collaborated with cross-functional teams to translate complex business requirements into effective frontend solutions via clear communication. 
+* Demonstrated multitasking by providing extensive application support encompassing incident triage, system monitoring, deployment aid, and defect resolution, effectively minimizing system downtime.
+
+General Motors 09/2019 - 05/2021
+Software Developer
+* Took a leading role in Angular development, communicating effectively with back-end developers to achieve parallel delivery and enhanced development efficiency.
+* Conceptualized and developed vital UI module for major integration of online purchasing platform, improving customer purchase experience and increasing online sales.
+* Re-engineered regression testing suite, amplifying application code coverage by over 100% with minimum of 90% passing rate, boosting application reliability and performance.
+Skills
+* Angular
+* TypeScript
+* JavaScript
+* HTML5
+* CSS
+* Material UI* Splunk
+* Java
+* Spring Boot
+* Git
+* Node
+* NPM* Angular
+* Typescript
+* HTML5
+* CSS
+* Bootstrap
+* NPM
+* Java
+* Spring Boot
+* Maven
+* React.js
+* Git
+* CI/CD
+* Splunk
+* Postman
+Self-Learning
+* OpenAI
+* Deeplearning.AI Course* Langchain
+* React
+Education
+Georgia State University: B.S. – Computer Science 
