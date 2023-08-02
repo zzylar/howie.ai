@@ -7,7 +7,7 @@ import { createPineconeIndex, updatePinecone } from "@/utils/chatUtils";
 import { indexName } from "../../../../chat-config";
 
 export async function POST() {
-  const loader = new DirectoryLoader("./src/documents", {
+  const loader = new DirectoryLoader("./src/documents-v2", {
     ".txt": (path) => new TextLoader(path),
     ".md": (path) => new TextLoader(path),
     ".pdf": (path) => new PDFLoader(path),

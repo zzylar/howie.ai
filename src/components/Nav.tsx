@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+// This component is for future use of a navigation bar
 const Nav = () => {
   return (
     <>

@@ -101,7 +101,7 @@ export default function Chat() {
             </button>
           </div>
         </>
-        {/* consider removing this button from the UI once the embeddings are created ... */}
+        {/* remove this button from the UI once the final embeddings are created ... */}
         {/* <button onClick={createIndexAndEmbeddings}>
           Create index and embeddings
         </button> */}
