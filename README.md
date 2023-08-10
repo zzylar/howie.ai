@@ -1,2 +1,2 @@
 # howie-nextjs
-My personal website build using nextjs
+My personal website built using nextjs
