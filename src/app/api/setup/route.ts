@@ -7,12 +7,7 @@ import { createPineconeIndex, updatePinecone } from "@/utils/chatUtils";
 import { indexName } from "../../../../chat-config";
 
 export async function POST() {
-  // const loader = new DirectoryLoader("./src/documents-v2", {
-  //   ".txt": (path) => new TextLoader(path),
-  //   ".md": (path) => new TextLoader(path),
-  //   ".pdf": (path) => new PDFLoader(path),
-  // });
-    const loader = new DirectoryLoader("C:/Users/rhunt/OneDrive/Documents/Workspaces/howie.ai/howie-huntington.next/src/documents-v2", {
+  const loader = new DirectoryLoader("./src/documents-v2", {
     ".txt": (path) => new TextLoader(path),
     ".md": (path) => new TextLoader(path),
     ".pdf": (path) => new PDFLoader(path),
